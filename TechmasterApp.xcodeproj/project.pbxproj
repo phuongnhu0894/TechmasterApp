@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F84DF0E1BE7193D008084D6 /* DemoFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DF0D1BE7193D008084D6 /* DemoFunction.m */; settings = {ASSET_TAGS = (); }; };
-		3F84DF171BE71A51008084D6 /* DemoSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DF151BE71A51008084D6 /* DemoSelector.m */; settings = {ASSET_TAGS = (); }; };
-		3F84DF181BE71A51008084D6 /* DemoSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F84DF161BE71A51008084D6 /* DemoSelector.xib */; settings = {ASSET_TAGS = (); }; };
-		3FC419DD1BEB18F300D8AA06 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FC419DC1BEB18F300D8AA06 /* data.plist */; settings = {ASSET_TAGS = (); }; };
-		3FC419E01BEB1BDB00D8AA06 /* DemoArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC419DF1BEB1BDB00D8AA06 /* DemoArray.m */; settings = {ASSET_TAGS = (); }; };
+		3F84DF0E1BE7193D008084D6 /* DemoFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DF0D1BE7193D008084D6 /* DemoFunction.m */; };
+		3F84DF171BE71A51008084D6 /* DemoSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DF151BE71A51008084D6 /* DemoSelector.m */; };
+		3F84DF181BE71A51008084D6 /* DemoSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F84DF161BE71A51008084D6 /* DemoSelector.xib */; };
+		3FC419DD1BEB18F300D8AA06 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FC419DC1BEB18F300D8AA06 /* data.plist */; };
+		3FC419E01BEB1BDB00D8AA06 /* DemoArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC419DF1BEB1BDB00D8AA06 /* DemoArrayViewController.m */; };
 		E24EF54119BC5149007D17C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24EF54019BC5149007D17C7 /* Foundation.framework */; };
 		E24EF54319BC5149007D17C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24EF54219BC5149007D17C7 /* CoreGraphics.framework */; };
 		E24EF54519BC5149007D17C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24EF54419BC5149007D17C7 /* UIKit.framework */; };
@@ -34,8 +34,8 @@
 		3F84DF151BE71A51008084D6 /* DemoSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSelector.m; sourceTree = "<group>"; };
 		3F84DF161BE71A51008084D6 /* DemoSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSelector.xib; sourceTree = "<group>"; };
 		3FC419DC1BEB18F300D8AA06 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
-		3FC419DE1BEB1BDB00D8AA06 /* DemoArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoArray.h; sourceTree = "<group>"; };
-		3FC419DF1BEB1BDB00D8AA06 /* DemoArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoArray.m; sourceTree = "<group>"; };
+		3FC419DE1BEB1BDB00D8AA06 /* DemoArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoArrayViewController.h; sourceTree = "<group>"; };
+		3FC419DF1BEB1BDB00D8AA06 /* DemoArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoArrayViewController.m; sourceTree = "<group>"; };
 		E24EF53D19BC5148007D17C7 /* TechmasterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechmasterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24EF54019BC5149007D17C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E24EF54219BC5149007D17C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -84,8 +84,8 @@
 				3F84DF151BE71A51008084D6 /* DemoSelector.m */,
 				3F84DF161BE71A51008084D6 /* DemoSelector.xib */,
 				3FC419DC1BEB18F300D8AA06 /* data.plist */,
-				3FC419DE1BEB1BDB00D8AA06 /* DemoArray.h */,
-				3FC419DF1BEB1BDB00D8AA06 /* DemoArray.m */,
+				3FC419DE1BEB1BDB00D8AA06 /* DemoArrayViewController.h */,
+				3FC419DF1BEB1BDB00D8AA06 /* DemoArrayViewController.m */,
 			);
 			name = Basic;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 				E24EF54D19BC5149007D17C7 /* main.m in Sources */,
 				3F84DF0E1BE7193D008084D6 /* DemoFunction.m in Sources */,
 				3F84DF171BE71A51008084D6 /* DemoSelector.m in Sources */,
-				3FC419E01BEB1BDB00D8AA06 /* DemoArray.m in Sources */,
+				3FC419E01BEB1BDB00D8AA06 /* DemoArrayViewController.m in Sources */,
 				E24EF57219BC51A6007D17C7 /* MainScreen.m in Sources */,
 				E24EF58019BC622C007D17C7 /* BasicB.m in Sources */,
 				E26E233019BC652800C7841B /* ConsoleScreen.m in Sources */,

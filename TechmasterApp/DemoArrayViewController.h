@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ConsoleScreen.h"
 
-@interface DemoArray : UIViewController
+@interface DemoArrayViewController : ConsoleScreen
 
 @end
 
